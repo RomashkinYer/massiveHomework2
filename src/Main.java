@@ -34,7 +34,7 @@ public class Main {
 
             try {
                 int productNumber = Integer.parseInt(inputString) - 1; // Приведение к индексу массива
-                if (productNumber < 0 || productNumber >= products.length) { // Исправлено условие
+                if (productNumber < 0 || productNumber >= products.length) { 
                     System.out.println("Некорректный номер продукта. Попробуйте снова.");
                     continue;
                 }
